@@ -1,6 +1,5 @@
 backend:
-  name: git-gateway               # use GitHub directly
-  repo: https://github.com/Saqibworksehsan/S82Studio   # ← CHANGE
+  name: git-gateway        # ← not github
   branch: main
 media_folder: public/img/projects
 public_folder: /img/projects
