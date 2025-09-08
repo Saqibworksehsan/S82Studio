@@ -1,7 +1,7 @@
 ---
 title: Sample Project
 location: Chennai, India
-thumbnail: /img/projects/sample.png
+thumbnail: /img/projects/screenshot-2025-09-02-123827.png
 images:
   - /img/projects/sample.png
 ---
