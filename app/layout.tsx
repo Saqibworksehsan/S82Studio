@@ -6,8 +6,12 @@ import { Inter } from 'next/font/google';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'S82 Studio | Architecture & Design',
+  title: 'S8.2 Studio | Architecture & Design',
   description: 'Creating exceptional architectural experiences that blend innovation with timeless design principles.',
+  icons: {
+    icon: '/favicon2.png',
+    apple: '/favicon2.png',
+  },
 };
 
 export default function RootLayout({
@@ -20,6 +24,8 @@ export default function RootLayout({
       <head>
         {/* Netlify Identity widget */}
         <script src="https://identity.netlify.com/v1/netlify-identity-widget.js" />
+        <link rel="icon" href="/favicon2.png" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/favicon2.png" />
       </head>
       <body className={inter.className}>
         {children}

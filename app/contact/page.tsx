@@ -4,7 +4,7 @@ import WhatsAppButton from '@/components/WhatsAppButton';
 import { Phone, Mail, MapPin } from 'lucide-react';
 
 export default function Contact() {
-  const address = "123 Design Street, Chennai – 600 001, India";
+  const address = "saleem , India";
   const mapsUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(address)}`;
 
   return (
@@ -36,10 +36,10 @@ export default function Contact() {
                 </div>
                 <h3 className="text-lg font-semibold text-gray-900 mb-2">Phone</h3>
                 <a
-                  href="tel:+919876543210"
+                  href="tel:+919994857720"
                   className="text-gray-600 hover:text-gray-900 transition-colors duration-200"
                 >
-                  +91 98765 43210
+                  +91 99948 57720
                 </a>
               </div>
 

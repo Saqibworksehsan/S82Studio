@@ -2,6 +2,7 @@
 
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
+import Image from 'next/image';
 import { cn } from '@/lib/utils';
 
 export default function Navigation() {
@@ -18,7 +19,7 @@ export default function Navigation() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <Link href="/" className="text-2xl font-bold text-gray-900">
-            S82
+            <Image src="/logo2.png"  alt="S82 Studio"  width={90}  height={60} className="object-contain" priority />
           </Link>
           
           <div className="hidden sm:flex space-x-8">

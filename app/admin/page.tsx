@@ -9,9 +9,6 @@ export default function AdminPage() {
         <link href="/admin/config.yml" type="text/yaml" rel="cms-config-url" />
       </head>
       <body>
-        <p style={{ padding: 40, fontFamily: 'sans-serif' }}>
-          Decap CMS loading… if you see a blank page please enable JavaScript.
-        </p>
       </body>
     </html>
   );
